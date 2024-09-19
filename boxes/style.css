@@ -1,0 +1,16 @@
+.box{
+    width: 900px;
+    height: 200px;
+    color: rgb(227, 222, 222);
+    border:1px solid ;
+}
+.bg-succes{
+    background-color: green;
+}
+
+.bg-warning{
+    background-color: yellow;
+}
+.bg-danger{
+    background-color: red;
+}

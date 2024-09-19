@@ -1,0 +1,47 @@
+.card-group{
+    width: 80%;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.border{
+    border: 1px solid blue;
+}
+
+.card{
+    width: 30%;
+    min-height: 600px;
+
+    padding: 10px;
+    background-color:#dcb0ff;
+    border-radius: 10px;
+}
+
+.card-image>img{
+    width: 100%;
+   
+}
+
+.card-body>p{
+    line-height: 30px;
+    text-align: justify;
+}
+button{
+    float: right;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.card-button{
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+

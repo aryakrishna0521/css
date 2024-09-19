@@ -1,0 +1,38 @@
+.parent{
+    width: 75%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+    grid-template-rows: 1fr 1fr 1fr;
+   
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    padding: 10px;
+
+
+}
+
+.child{
+    background-color: rgb(74, 71, 79);
+    border-radius: 10px;
+
+}
+.parent>:nth-child(1){
+   
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.parent>:nth-child(5){
+       
+    grid-column-start: 1;
+    grid-column-end: 4;
+  
+  
+}
+
+    
+  
+
+

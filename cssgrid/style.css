@@ -1,0 +1,32 @@
+body{
+    /* display: flex;
+    justify-content: center; */
+    width: 100vw;
+    height: 100vh;
+    padding: 200px;
+}
+
+.parent{
+    width:70% ;
+    height: 500px;
+    border: 1px solid rgb(15, 12, 8);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap:10px ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap:10px ;
+    background-color:rgb(152, 59, 65);  
+    padding: 10px;
+
+
+}
+
+.child{
+
+    background-color:rgb(245, 180, 180);
+    border: 1px solid rgb(20, 17, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
